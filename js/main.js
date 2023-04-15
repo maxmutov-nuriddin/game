@@ -1,6 +1,10 @@
 let click = document.querySelector('.game__dino')
 let cactus = document.querySelector('.game__cactus')
 
+document.addEventListener('click', (e) => {
+  run()
+})
+
 document.addEventListener('keydown', (e) => {
   run()
 })
