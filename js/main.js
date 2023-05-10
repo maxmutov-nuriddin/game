@@ -25,6 +25,6 @@ let bang = setInterval(function () {
 
 
   if (cactusLeft < 50 && cactusLeft > 0 && clickTop >= 253) {
-    // alert("GAME OVER!!")
+    alert("GAME OVER!!")
   }
 }, 10)
